@@ -1,0 +1,28 @@
+.position-img {
+    width: 100px;
+    padding-left: 46px
+}
+
+.position-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.17;
+    margin-top: 22px;
+    margin-bottom: 9px;
+}
+
+.position {
+
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 18px;
+    font-family: Roboto, SansSerif, serif;
+    margin-top: 35px;
+
+}
+
+.position-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.17;
+}
