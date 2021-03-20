@@ -1,0 +1,31 @@
+
+.position-img {
+    width: 100px;
+    position: fixed;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+
+.position {
+    font-family: Roboto, SansSerif, serif;
+}
+
+.position-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 9px;
+}
+
+.position-content{
+    padding-left: 145px;
+    padding-top: 57px;
+}
+
+
+.position-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.17;
+}
