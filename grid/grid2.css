@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(fonts/gilroy.woff2);
+}
+
+body {
+    font-family: Gilroy, Serif, serif;
+    line-height: 10px;
+}
+
+.gift-cards-link{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 1.9rem;
+}
+
+.gift-cards-img{
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gifts-content {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.gifts-title {
+    font-size: 32px;
+    line-height: 3.8rem;
+    padding-bottom: 23px;
+}
+
+.gifts-txt {
+    font-size: 18px;
+    line-height: 1.3rem;
+}
+
+.gifts-txt::before {
+    content: "“";
+}
+
+.gifts-txt::after {
+    content: "”";
+}
+.gift-cards-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.gift-cards{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    width: 270px;
+}
+
+.gift-cards-content{
+    padding: 24px ;
+}
+
+.gift-cards-title{
+    font-size: 20px;
+    line-height: 2.4rem;
+    padding-bottom: 74px;
+}
+
+
